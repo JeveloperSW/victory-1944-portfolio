@@ -1,6 +1,6 @@
 # Quality Gates
 
-[한국어](QUALITY_GATES.md) | English
+**Language:** [한국어](QUALITY_GATES.md) | English
 
 ## Merge gate
 
