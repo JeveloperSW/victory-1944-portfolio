@@ -1,0 +1,44 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.local/
+
+# 빌드 설정에는 배포 주소가 들어간다. 예시 파일(.env.example)만 저장소에 둔다.
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Local signing keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+
+# Local runtime data and tool caches
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Editor and operating-system metadata
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Local AI-agent and workspace instructions are not part of the public snapshot.
+.agents/
+.codex/
+AGENTS.md
+CLAUDE.md

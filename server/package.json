@@ -1,0 +1,20 @@
+{
+  "name": "@victory1944/server-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Victory 1944 서버 권위 건설·작전 명령 SQLite PoC",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "typecheck": "node ../engine/node_modules/typescript/bin/tsc --noEmit",
+    "test": "node ../engine/node_modules/tsx/dist/cli.mjs --test test/db-adapter.test.ts test/construction.test.ts test/job-claims.test.ts test/worker-daemon.test.ts test/admin-auth.test.ts test/clock-and-main.test.ts test/http-api.test.ts test/http-cors.test.ts test/operations.test.ts test/operations-http.test.ts test/prototype-ui.test.ts test/prototype-cli.test.ts test/telemetry.test.ts test/accounts.test.ts test/buildings14.test.ts test/recovery.test.ts test/production.test.ts test/city-name.test.ts",
+    "demo": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/demo.ts",
+    "demo:worker": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/worker-demo.ts",
+    "admin": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/admin.ts",
+    "prototype": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/prototype.ts",
+    "load:smoke": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/load-smoke.ts",
+    "app:server": "node ../engine/node_modules/tsx/dist/cli.mjs src/cli/app-server.ts"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@victory1944/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Victory 1944 결정론적 전투·경제·캠페인 시뮬레이터 PoC",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "demo": "tsx src/cli/demo.ts",
+    "demo:economy": "tsx src/cli/economy-demo.ts",
+    "demo:campaign": "tsx src/cli/campaign-demo.ts",
+    "demo:reset-models": "tsx src/cli/reset-model-demo.ts",
+    "ladder": "tsx src/cli/ladder-report.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
