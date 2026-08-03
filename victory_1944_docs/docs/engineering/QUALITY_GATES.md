@@ -1,6 +1,6 @@
 # 품질 게이트
 
-한국어 | [English](QUALITY_GATES.en.md)
+**Language:** 한국어 | [English](QUALITY_GATES.en.md)
 
 ## 병합 게이트
 
