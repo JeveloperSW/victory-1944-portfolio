@@ -1,6 +1,6 @@
 # 기술 아키텍처
 
-한국어 | [English](ARCHITECTURE.en.md)
+**Language:** 한국어 | [English](ARCHITECTURE.en.md)
 
 ## 핵심 판단
 
