@@ -1,6 +1,6 @@
 # Technical Architecture
 
-[한국어](ARCHITECTURE.md) | English
+**Language:** [한국어](ARCHITECTURE.md) | English
 
 ## Core assessment
 
