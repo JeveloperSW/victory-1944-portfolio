@@ -1,6 +1,6 @@
 # Victory 1944
 
-[한국어](README.md) | English
+**Language:** [한국어](README.md) | English
 
 Victory 1944 is a portfolio snapshot of a mobile-first strategy game prototype. It separates a deterministic simulation engine, a server-authoritative application layer, and a PixiJS client so that game rules can be tested independently from presentation and persistence.
 
